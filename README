@@ -1,1 +1,15 @@
 A Scala / Spring MVC 3 starter app
+Robert Roland (rob.roland@gmail.com)
+------------------------------------
+
+This is a very basic Spring MVC 3 starter app, written using Spring 3.0.2.RELEASE
+and Scala 2.8.0.RC2.  It uses FreeMarker as a templating engine, and sl4j for logging.
+
+You can use this code with no restrictions in any way you see fit.
+
+The Jetty plugin is wired up, so from the webapp/ folder, you can:
+
+mvn clean package jetty:run
+
+and Jetty will be listening on http://localhost:8080
+
